@@ -78,16 +78,14 @@ function getData(pin)
   end
   checksumTest=(humidity+humidityDec+temperature+temperatureDec) % 0xFF
 
-  temperature = temperature - 2
-  
-  rst = {}
-  rst["temperature"] = temperature.."."..temperatureDec
-  rst["humidity"] = humidity.."."..humidityDec
-
   print ("Temperature: "..temperature.."."..temperatureDec)
   print ("Humidity: "..humidity.."."..humidityDec)
 --  print ("ChecksumReceived: "..checksum)
 --  print ("ChecksumTest: "..checksumTest)
+
+  rst = {}
+  rst["temperature"] = temperature.."."..temperatureDec
+  rst["humidity"] = humidity.."."..humidityDec
 
   return rst
 end
