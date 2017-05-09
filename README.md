@@ -14,3 +14,4 @@ MQTT client publising DHT11 data to a MQTT broker each time data changes.
 
 ## Scheme
 
+// TODO
