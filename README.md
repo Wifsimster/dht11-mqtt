@@ -1,6 +1,6 @@
 # Send DHT11 data through an ESP8266 to a MQTT broker
 
-This LUA script is for ESP8266 hardware.
+> This LUA script is for ESP8266 hardware.
 
 ## Description
 
